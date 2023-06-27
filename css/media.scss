@@ -1,0 +1,261 @@
+@import "main.scss";
+
+
+@media (min-width: 321px) and (max-width: 768px) {
+
+  .wrapper {
+
+    max-width: 768px;
+
+    .header {
+
+      &__logo {
+        margin-left: 24px;
+
+      }
+
+
+      &__logo-link {
+        margin-right: 20px;
+      }
+
+      &__first-separator {
+        display: block;
+      }
+
+      &__second-separator {
+        //display: block;
+      }
+
+      &__link {
+        margin-right: 20px;
+      }
+
+    }
+
+    .link {
+
+      &__first {
+        display: inline;
+
+      }
+
+      &__second {
+        display: inline;
+      }
+
+      &__third {
+        display: inline;
+      }
+
+    }
+
+    .services {
+      height: 416px;
+
+      .content {
+        display: flex;
+        flex-direction: row;
+      }
+
+      &__text {
+        margin-bottom: 10px;
+
+      }
+
+      &__paragraph-one {
+        margin-bottom: 16px;
+
+      }
+
+      &__paragraph-two {
+        display: inline-block;
+      }
+
+      &__image {
+        display: block;
+        //position: fixed;
+        height: auto;
+        width: 100%;
+        max-width: 768px;
+      }
+
+      &__image-mobile {
+        display: none;
+      }
+
+      &__image-content-small {
+        display: none;
+
+      }
+
+      &__image-content-medium {
+
+        display: inline-block;
+        height: auto;
+        width: 100%;
+        min-width: 360px;
+        border-radius: 6px;
+
+      }
+
+      &__image-content-big {
+        display: none;
+
+      }
+
+    }
+
+    .margin-gorizontal {
+      margin-left: 24px;
+      margin-right: 24px;
+    }
+
+  }
+
+}
+
+
+@media (min-width: 769px) and (max-width: 1120px) {
+
+  .wrapper {
+    max-width: 1120px;
+
+    .header {
+      display: none;
+
+    }
+
+    .alter-header {
+      padding: 42px 32px 8px 32px;
+      //padding-top: 42px;
+      //padding-bottom: 8px;
+      background-color: $color-6;
+
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      &__title {
+
+      }
+
+      &__menu {
+        display: flex;
+        align-items: center;
+
+        .menu__link {
+          display: flex;
+          align-items: center;
+          text-decoration: none;
+          color: $color-2;
+
+          &:first-child {
+            margin-right: 32px;
+          }
+
+        }
+
+        .link {
+
+          &__text {
+            padding-right: 8px;
+          }
+
+        }
+
+      }
+    }
+
+
+    .services {
+
+      .content {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;/**/
+      }
+
+      &__title {
+        display: none;
+      }
+
+      &__links {
+        margin-left: 16px;
+        overflow: hidden;
+        flex-wrap: wrap;
+
+      }
+
+      &__paragraph-one {
+        margin-bottom: 16px;
+
+      }
+
+      &__paragraph-two {
+        display: inline;
+      }
+
+      &__paragraph-three {
+        display: inline;
+      }
+
+
+      &__image {
+        display: block;
+
+        display: block;
+        //position: fixed;
+        height: auto;
+        width: 100%;
+        max-width: 768px;
+
+      }
+
+      &__image-content-small {
+        display: none;
+
+      }
+
+      &__image-content-medium {
+
+      display: none;
+
+      }
+
+      &__image-content-big {
+
+        display: inline-block;
+        height: auto;
+        width: 100%;
+        min-width: 532px;
+        border-radius: 6px;
+
+      }
+
+
+
+    }
+
+    .margin-gorizontal {
+      margin-left: 32px;
+      margin-right: 32px;
+    }
+
+    .link {
+
+      &__text {
+        text-decoration: none;
+
+      }
+    }
+
+    .line {
+      top: 43px;
+
+    }
+
+  }
+
+
+}
