@@ -1,0 +1,88 @@
+@import "main";
+@import "header";
+@import "services";
+
+
+@media (min-width: 321px) and (max-width: 768px) {
+
+  .wrapper {
+
+    max-width: 768px;
+
+
+
+    .link {
+
+      &__first {
+        display: inline;
+
+      }
+
+      &__second {
+        display: inline;
+      }
+
+      &__third {
+        display: inline;
+      }
+
+    }
+
+
+
+    .margin-gorizontal {
+      margin-left: 24px;
+      margin-right: 24px;
+    }
+
+  }
+
+}
+
+
+@media (min-width: 769px)  {
+
+  .wrapper {
+    max-width: 1120px;
+
+
+
+    .margin-gorizontal {
+      margin-left: 32px;
+      margin-right: 32px;
+    }
+
+    .link {
+
+      &__text {
+        text-decoration: none;
+
+      }
+    }
+
+    .line {
+      top: 43px;
+    }
+
+  }
+
+
+}
+
+@media (min-width: 1121px) {
+
+  .wrapper  {
+    max-width: 9999px;
+
+
+    }
+
+}
+
+
+
+
+
+
+
+

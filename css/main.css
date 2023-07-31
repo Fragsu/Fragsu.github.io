@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  box-sizing: border-box;
+  max-width: 320px;
+}
+.wrapper .separator {
+  background: #EAEAEA;
+  height: 32px;
+  width: 2px;
+  border-radius: 50%;
+}
+.wrapper .link__first {
+  display: none;
+}
+.wrapper .link__second {
+  display: none;
+}
+.wrapper .link__third {
+  display: none;
+}
+.wrapper .link__fifth {
+  padding-right: 0;
+}
+.wrapper .margin-gorizontal {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.wrapper .link {
+  text-decoration: none;
+  color: #7E7E82;
+  padding: 8px 16px 8px 16px;
+  border: 2px solid #F8F8F8;
+}
+.wrapper .link:hover {
+  background-color: #FFFFFF;
+  border: 2px solid #B8FFEC;
+  border-radius: 6px;
+}
+.wrapper .link:focus {
+  background-color: #FFFFFF;
+  border: 2px solid #B8FFEC;
+  border-radius: 6px;
+}
+.wrapper .regular {
+  font-family: LakesR, sans-serif;
+}
+.wrapper .medium {
+  font-family: LakesM, sans-serif;
+}
+.wrapper .bold {
+  font-family: LakesB, sans-serif;
+}
+.wrapper .line {
+  position: absolute;
+  overflow: hidden;
+  background: #41F6D7;
+  height: 40px;
+  width: 8px;
+  left: -4px;
+  top: 24px;
+  border-radius: 25%;
+}
+
+/*# sourceMappingURL=main.css.map */

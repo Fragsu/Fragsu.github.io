@@ -1,0 +1,115 @@
+
+
+$color-1: #FFFFFF;
+$color-2: #1B1C21;
+$color-3: #7E7E82;
+$color-4: #FF3E79;
+$color-5: #EAEAEA;
+$color-6: #F8F8F8;
+$color-7: #B8FFEC;
+$color-8: #41F6D7;
+
+
+$font-family-B: LakesB, sans-serif;
+$font-family-M: LakesM, sans-serif;
+$font-family-R: LakesR, sans-serif;
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  box-sizing: border-box;
+  max-width: 320px;
+
+
+
+
+
+  .separator {
+    background: $color-5;
+    height: 32px;
+    width: 2px;
+    border-radius: 50%;
+  }
+
+  .link {
+
+    &__first {
+      display: none;
+
+    }
+
+    &__second {
+      display: none;
+    }
+
+    &__third {
+      display: none;
+    }
+
+    &__fourth{
+
+    }
+
+    &__fifth{
+      padding-right: 0;
+    }
+
+  }
+
+  .margin-gorizontal {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+
+  .link {
+    text-decoration: none;
+    color: $color-3;
+    padding: 8px 16px 8px 16px;
+    border: 2px solid $color-6;
+    &:hover {
+      background-color: $color-1;
+      border: 2px solid $color-7;
+      border-radius: 6px;
+    }
+    &:focus {
+      background-color: $color-1;
+      border: 2px solid $color-7;
+      border-radius: 6px;
+    }
+  }
+
+
+  .regular {
+    font-family: $font-family-R;
+  }
+
+  .medium {
+    font-family: $font-family-M;
+  }
+
+  .bold {
+    font-family: $font-family-B;
+  }
+
+  .line {
+    position: absolute;
+    overflow: hidden;
+    background: $color-8;
+    height: 40px;
+    width: 8px;
+    left: -4px;
+    top: 24px;
+    //top: 111px;
+    border-radius: 25%;
+  }
+
+
+
+}
+
+
